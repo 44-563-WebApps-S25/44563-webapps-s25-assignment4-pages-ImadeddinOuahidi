@@ -1,0 +1,96 @@
+.speech {
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    color: black;
+}
+
+.stage-direction {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    color: black;
+    background-color: #ececec;
+}
+
+.stage-direction:hover {
+    background-color: #afb6e3;
+    color: #940a23;
+}
+
+.name {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.name:hover {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); 
+    border: 2px solid rgba(0, 0, 0, 0.7); 
+    padding: 2px 5px; 
+    border-radius: 5px; 
+}
+
+.hamlet {
+    color: rgb(46, 15, 169);
+}
+
+.queen-gertrude {
+    color: rgb(155, 17, 125);
+}
+
+.lord-polonious {
+    color: rgb(111, 132, 6);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+body{
+    padding-bottom: 60px; 
+}
+
+
+
